@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+    font-family: "Montserrat", sans-serif;
+}
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+.logo{
+    width: 300px;
+    margin:0 auto; 
+}
+.navbar ul {
+    display: flex;
+    width: 370px;
+    list-style: none;
+    font-size:22px;
+    justify-content: space-between;
+}
+
+.button1 {
+    
+    width: 14px 20px;
+    height: 50px;
+    background-color: black;
+    background-size: 100px;
+    color:white;
+    line-height: 50px;
+    font-size: 16px;
+    font-weight:200;
+    border-radius: 50px;
+}
+.button1 {
+    width: 120px;         /* Adjust width to your desired size */
+    height: 50px;         /* Height of the button */
+    background-color: black;
+    color: white;
+    line-height: 50px;    /* Center text vertically */
+    font-size: 16px;      /* Font size of the text */
+    font-weight: 200;     /* Weight of the font */
+    border-radius: 50px; /* Rounded corners of the button */
+    border: 4px solid black; /* Thickness and color of the border */
+    text-align: center;   /* Center text horizontally */
+    display: inline-block; /* Ensures the button behaves as an inline element */
+    text-decoration: none; /* Remove underline from text */
+    box-sizing: border-box; /* Include border in element's total width and height */
+}
